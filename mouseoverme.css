@@ -1,0 +1,51 @@
+.dbtn {
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+    background:none;
+  }
+  
+  .dd {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dd-content {
+    display: none;
+    position: absolute;
+    background-color: #f80;
+    height: 10em;
+    width: 16em;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  .dd-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dd-content a:hover {
+      color: #f80;
+background-color: #fff;
+width: 14em;
+border-radius: 5px;}
+  
+  .dd:hover .dd-content {
+    display: block;
+  }
+  
+  .dd:hover .dbtn {
+    /* background-color: #3e8e41; */
+  }
+  .dd .dbtn{
+      margin-top: 2.5px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 21px;
+      
+  }

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    transition: 0.5s;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navlist{
+    width: 100%;
+    padding: 5px 10vw;
+    position: fixed;
+    background: rgba(86, 86, 202, 0.575);
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+    color: #ffffff;
+}
+.navlist ul li h4{
+    font-family: serif;
+    font-size: 35px;
+    color: white;
+}
+.navlist ul a{
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
+.navlist ul a:hover{
+    color: #ff8800;
+}
+.container{
+ width: 100%;
+ height:  80vh;
+ padding-top: 30vh;
+ background-image: linear-gradient(#000000bb,#000000bb), url(1st.jpg);
+ background-position: center;
+ background-size: cover;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ text-align: center;
+ color: #ffffff;
+}
+.container h1{
+    font-family: serif;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+}
+.container img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.container p{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.container button{
+    padding: 10px;
+    background: none;
+    border: 1px solid #f80;
+}
+.container button:hover{
+    background: #f80;
+}
+.content{
+    width:80%;
+    margin: auto;
+    
+}
+.content>h2{
+    text-align: center;
+    color: #f80;
+    margin:20px;
+}
+.content>h2::before, .content>h2::after{
+    content: "-----------------------------------";
+    letter-spacing: -3px;
+    margin: 0 10px;
+}
+.content .containingFacilities {
+    float: right;
+    position: relative;
+    right: 9vh;
+    margin-bottom: 20px;
+}
+.content-box .containingFacilities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist .dropdown button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1.5em;
+    padding: 8px;
+}
+.dropdown-content{
+    margin-top: 1.02em;
+    display: none;
+    position: absolute;
+    /* z-index: 2; */
+    background-color: #f80;
+    height: 35em;
+    width: 25em;
+    border-radius: 5px;
+}
+.show{
+    display: inline-block;
+}
+.navlist ul .dropdown .dropbtn{
+    margin-top: 2.5px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 21px;
+}
+.dropdown-content a:hover{
+    color: #f80;
+    background-color: #fff;
+    border-radius: 5px;
+}

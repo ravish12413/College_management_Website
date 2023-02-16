@@ -1,0 +1,79 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    float: right;
+    height: 30em;
+    width: 17em;
+    margin-top: 5em;
+    margin-right: 1.1em;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+    margin-top: 1.2em;
+  }
+  .title3 {
+    color: grey;
+    font-size: 18px;
+    margin-top: 1.2em;
+    margin-bottom: -.45em;
+  }
+  
+  .Postbtn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ .facultymembers .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  .teacher{
+      width: 15em;
+      height: 15em;
+      border-radius: 50%;
+  }
+  .surname{
+      margin-top: -.3em; 
+  }
+  
+  .Postbtn:hover, .facultymembers a:hover {
+    opacity: 0.5;
+  }
+  .phd{
+      margin-top: 35px;
+  }
+  .phd1{
+      margin-top: 38px;
+  }
+  .intro{
+      margin-top: 39px;
+  }
+  .intro1{
+      margin-top: 31px;
+  }
+  .degree{
+      margin-top: 5px;
+  }
+  .intro2{
+      margin-top: 20px;
+  }
+  .degree2{
+      margin-top: 15px;
+  }
+  .sanjeev{
+      margin-top: 1.2em;
+  }
